@@ -6,7 +6,16 @@
     <description>Recent content in 學習筆記 on PEICHIA&#39;S HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 26 Apr 2023 00:54:00 +0800</lastBuildDate><atom:link href="https://tsaipc2001.github.io/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Apr 2023 13:11:00 +0800</lastBuildDate><atom:link href="https://tsaipc2001.github.io/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第二篇文章</title>
+      <link>https://tsaipc2001.github.io/blog/second-post/</link>
+      <pubDate>Wed, 26 Apr 2023 13:11:00 +0800</pubDate>
+      
+      <guid>https://tsaipc2001.github.io/blog/second-post/</guid>
+      <description>如何發佈個人網站到 Github Pages 1. 初次將個人網站發佈到 Github Pages 創建 repository(資料夾) 打開 Github 首頁，點擊右上角的「+」號，點擊「New repository」創建一個新的 repository</description>
+    </item>
+    
     <item>
       <title>我的第一篇文章</title>
       <link>https://tsaipc2001.github.io/blog/my-first-post/</link>

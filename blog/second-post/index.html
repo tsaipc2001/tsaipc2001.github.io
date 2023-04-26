@@ -120,8 +120,8 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/categories/go-language"
-          class="text-primary">Go language</a>
+        <a href="/categories/%e5%ad%b8%e7%bf%92%e7%ad%86%e8%a8%98"
+          class="text-primary">學習筆記</a>
         
         <h2>我的第二篇文章</h2>
         <div class="mb-3 post-meta">
@@ -135,7 +135,115 @@
         <img src="https://tsaipc2001.github.io/images/post/Notes.jpg" class="img-fluid w-100 mb-4" alt="我的第二篇文章">
         
         <div class="content mb-5">
-          <p>我是第二篇文章</p>
+          <h1 id="如何發佈個人網站到-github-pages">如何發佈個人網站到 Github Pages</h1>
+<h3 id="1-初次將個人網站發佈到-github-pages">1. 初次將個人網站發佈到 Github Pages</h3>
+<ul>
+<li>
+<h4 id="創建-repository資料夾">創建 repository(資料夾)</h4>
+</li>
+</ul>
+<ol>
+<li>
+<p>打開 Github 首頁，點擊右上角的「+」號，點擊「New repository」創建一個新的 repository</p>
+</li>
+<li>
+<p>輸入 Repository 的名稱</p>
+<ul>
+<li>
+<h6 id="命名規則">命名規則：</h6>
+<em>自己的 Githib 帳號</em>.github.io</li>
+</ul>
+</li>
+<li>
+<p>點擊下方綠色「Create repository」</p>
+</li>
+<li>
+<p>點擊「Set up in Desktop」，來開啟  Github Desktop，幫我們把這個 repository clone(複製)到我們的電腦上</p>
+</li>
+<li>
+<p>選擇自己想存放的位置</p>
+</li>
+<li>
+<p>點擊「Clone」，將 repository clone 下來</p>
+</li>
+</ol>
+<ul>
+<li>
+<h4 id="使用hugo產生個人網站的程式碼">使用Hugo產生個人網站的程式碼</h4>
+</li>
+</ul>
+<ol>
+<li>
+<p>在桌面找到 exampleSite，在 exampleSite 上點擊右鍵，選擇開啟終端機</p>
+</li>
+<li>
+<p>輸入「hugo」，按下 enter 鍵</p>
+</li>
+<li>
+<p>個人網站的程式碼已生成！</p>
+</li>
+<li>
+<p>將 exampleSite 中的「public」資料夾內所有檔案及資料夾複製，貼到我們 clone 的 repository 裡面</p>
+</li>
+<li>
+<p>回到 Github Desktop，(創建一個commit來儲存此次檔案改動)，在左邊「Summary」欄位打上commit訊息</p>
+</li>
+<li>
+<p>點擊「Commit to main」</p>
+</li>
+<li>
+<p>點擊右上方「Publish branch」，將 commit 上傳至 Github 上</p>
+</li>
+<li>
+<p>回到Github頁面重新整理，即可看到 commit已成功上傳到 Github</p>
+</li>
+<li>
+<p>開啟新分頁，輸入自己的 Github 帳號，按下 enter 鍵</p>
+</li>
+<li>
+<p>約等待2-3分鐘，重新整理網頁，即可看到 Github Pages 成功將我們的個人網站程式碼轉換成精美的網站了！</p>
+</li>
+</ol>
+<h5 id="----------------------------------------------------------------------------------------------------------------------------------------">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</h5>
+<h3 id="2-新增文章">2. 新增文章</h3>
+<ol>
+<li>
+<p>在 VS code 上，exampleSite 的「content」下面的「blog」資料夾中<strong>創建一個檔案</strong>，自訂檔名，<strong>副檔名為「.md」</strong></p>
+</li>
+<li>
+<p>到之前寫好的文章中，複製 Hugo 的文章設定</p>
+</li>
+<li>
+<p>修改標題、時間、圖片、description、分類、標籤</p>
+<ul>
+<li>
+<h6 id="修改圖片注意事項">修改圖片注意事項：</h6>
+<p>先將要使用的圖片拉到「images」資料夾下面</p>
+</li>
+</ul>
+</li>
+<li>
+<p>以 Markdown 語法寫文章</p>
+</li>
+<li>
+<p>到終端機上輸入「hugo」，按下 enter 鍵</p>
+</li>
+<li>
+<p>將 exampleSite 中的「public」資料夾內所有檔案及資料夾複製，貼到我們 clone 的 repository 裡面</p>
+</li>
+<li>
+<p>回到 Github Desktop，在左邊「Summary」欄位打上 commit 訊息</p>
+</li>
+<li>
+<p>點擊「Commit to main」</p>
+</li>
+<li>
+<p>點擊右上方「Push origin」，將 commit 上傳至 Github 上</p>
+</li>
+<li>
+<p>約等待2-3分鐘，重新整理網頁，就可在網頁上看到新增的文章了！</p>
+</li>
+</ol>
 
         </div>
 
