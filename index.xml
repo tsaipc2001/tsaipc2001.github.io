@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PEICHIA&#39;S HOUSE</title>
+    <link>https://tsaipc2001.github.io/</link>
+    <description>Recent content on PEICHIA&#39;S HOUSE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 26 Apr 2023 00:54:00 +0800</lastBuildDate><atom:link href="https://tsaipc2001.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇文章</title>
+      <link>https://tsaipc2001.github.io/blog/my-first-post/</link>
+      <pubDate>Wed, 26 Apr 2023 00:54:00 +0800</pubDate>
+      
+      <guid>https://tsaipc2001.github.io/blog/my-first-post/</guid>
+      <description>Hello World
+我是蔡貝加
+一級標題 二級標題 三級標題 四級標題 五級標題 六級標題 這是粗體字，這是斜體字</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://tsaipc2001.github.io/blog/post-13/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://tsaipc2001.github.io/blog/post-13/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+  </channel>
+</rss>
