@@ -118,65 +118,57 @@
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
+      <div class="col-lg-8 mx-auto">
         
-        <img src="https://tsaipc2001.github.io/images/photo.jpg" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
+        <a href="/categories/code"
+          class="text-primary">Code</a>
         
-        <h4 class="widget-title">About Me</h4>
-        <div class="content">
-          <p>我是蔡貝加</p>
-<p>就讀台南大學應用數學系</p>
-
+        <h2>1A2B 猜數字小遊戲-code分享</h2>
+        <div class="mb-3 post-meta">
+          <span>By PCTsai</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>26 April 2023</span>
+          
         </div>
+        
+        <img src="https://tsaipc2001.github.io/images/post/code.jpg" class="img-fluid w-100 mb-4" alt="1A2B 猜數字小遊戲-code分享">
+        
+        <div class="content mb-5">
+          <h3 id="1a2b-猜數字遊戲-程式碼">1A2B 猜數字遊戲-程式碼</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> random
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>num <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#34;請輸入您想猜幾個數字的密碼：&#34;</span>))
+</span></span><span style="display:flex;"><span>pwd <span style="color:#f92672">=</span> random<span style="color:#f92672">.</span>sample(range(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">10</span>), num)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>A <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>B <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> A<span style="color:#f92672">!=</span>num:
+</span></span><span style="display:flex;"><span>    guess <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;請輸入&#34;</span><span style="color:#f92672">+</span>str(num)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;個數字：&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> len(guess)<span style="color:#f92672">!=</span>num <span style="color:#f92672">or</span> len(set(guess))<span style="color:#f92672">!=</span>num:
+</span></span><span style="display:flex;"><span>        guess <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#34;請輸入&#34;</span><span style="color:#f92672">+</span>str(num)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;個數字，且數字不重複：&#34;</span>)
+</span></span><span style="display:flex;"><span>    list1 <span style="color:#f92672">=</span> list(map(int, list(guess)))
+</span></span><span style="display:flex;"><span>    A <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>  <span style="color:#75715e"># 要先清空!再重計算</span>
+</span></span><span style="display:flex;"><span>    B <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>  <span style="color:#75715e"># 要先清空!再重計算</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> list1:   <span style="color:#75715e"># 把list1裡的元素內容逐一拿出來給i</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> i <span style="color:#f92672">in</span> pwd:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> list1<span style="color:#f92672">.</span>index(i) <span style="color:#f92672">==</span> pwd<span style="color:#f92672">.</span>index(i):
+</span></span><span style="display:flex;"><span>                A <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>                B <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    print(guess, <span style="color:#e6db74">&#34;：&#34;</span>, A, <span style="color:#e6db74">&#34;A&#34;</span>, B, <span style="color:#e6db74">&#34;B&#34;</span>, sep<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;你猜對了，密碼是：&#34;</span>, guess)
+</span></span></code></pre></div>
+        </div>
+
+        
+        
       </div>
     </div>
   </div>
 </section>
-
-
-
-<section>
-  <div class="container-fluid px-0">
-    <div class="text-center">
-      <h4 class="widget-title">My Gallery</h4>
-    </div>
-    <div class="row no-gutters">
-      
-      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-        <a href="https://tsaipc2001.github.io/images/gallery/%E9%A6%96%E7%88%BE%E5%A1%94%E6%AD%A5%E9%81%93.jpg" class="venobox" data-gall="gallery"><img class="img-fluid w-100"
-            src="https://tsaipc2001.github.io/images/gallery/%E9%A6%96%E7%88%BE%E5%A1%94%E6%AD%A5%E9%81%93.jpg" alt=""></a>
-      </div>
-      
-      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-        <a href="https://tsaipc2001.github.io/images/gallery/%E5%8D%97%E6%80%A1%E5%B3%B61.jpg" class="venobox" data-gall="gallery"><img class="img-fluid w-100"
-            src="https://tsaipc2001.github.io/images/gallery/%E5%8D%97%E6%80%A1%E5%B3%B61.jpg" alt=""></a>
-      </div>
-      
-      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-        <a href="https://tsaipc2001.github.io/images/gallery/%E5%8D%97%E6%80%A1%E5%B3%B62.jpg" class="venobox" data-gall="gallery"><img class="img-fluid w-100"
-            src="https://tsaipc2001.github.io/images/gallery/%E5%8D%97%E6%80%A1%E5%B3%B62.jpg" alt=""></a>
-      </div>
-      
-      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-        <a href="https://tsaipc2001.github.io/images/gallery/%E5%8D%97%E6%80%A1%E5%B3%B63.jpg" class="venobox" data-gall="gallery"><img class="img-fluid w-100"
-            src="https://tsaipc2001.github.io/images/gallery/%E5%8D%97%E6%80%A1%E5%B3%B63.jpg" alt=""></a>
-      </div>
-      
-      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-        <a href="https://tsaipc2001.github.io/images/gallery/%E6%AB%BB%E8%8A%B11.jpg" class="venobox" data-gall="gallery"><img class="img-fluid w-100"
-            src="https://tsaipc2001.github.io/images/gallery/%E6%AB%BB%E8%8A%B11.jpg" alt=""></a>
-      </div>
-      
-      <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-        <a href="https://tsaipc2001.github.io/images/gallery/%E6%AB%BB%E8%8A%B12.jpg" class="venobox" data-gall="gallery"><img class="img-fluid w-100"
-            src="https://tsaipc2001.github.io/images/gallery/%E6%AB%BB%E8%8A%B12.jpg" alt=""></a>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-
 
 
 
