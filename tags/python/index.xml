@@ -16,14 +16,5 @@
       <description>1A2B 猜數字遊戲-程式碼 import random num = int(input(&amp;#34;請輸入您想猜幾個數字的密碼：&amp;#34;)) pwd = random.sample(range(0, 10), num) A = 0 B = 0 while A!</description>
     </item>
     
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://tsaipc2001.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://tsaipc2001.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
-    </item>
-    
   </channel>
 </rss>
