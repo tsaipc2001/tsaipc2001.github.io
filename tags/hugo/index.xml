@@ -6,16 +6,7 @@
     <description>Recent content in Hugo on PEICHIA&#39;S HOUSE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 08 May 2023 00:15:00 +0800</lastBuildDate><atom:link href="https://tsaipc2001.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tableau 範例實作練習</title>
-      <link>https://tsaipc2001.github.io/blog/tableau-practice/</link>
-      <pubDate>Mon, 08 May 2023 00:15:00 +0800</pubDate>
-      
-      <guid>https://tsaipc2001.github.io/blog/tableau-practice/</guid>
-      <description>作品1 銷售範例統計</description>
-    </item>
-    
+    <lastBuildDate>Wed, 26 Apr 2023 13:11:00 +0800</lastBuildDate><atom:link href="https://tsaipc2001.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第二篇文章</title>
       <link>https://tsaipc2001.github.io/blog/second-post/</link>
@@ -31,7 +22,8 @@
       <pubDate>Wed, 26 Apr 2023 00:54:00 +0800</pubDate>
       
       <guid>https://tsaipc2001.github.io/blog/my-first-post/</guid>
-      <description>Hello World
+      <description>Markdown 語法：
+Hello World
 我是蔡貝加
 一級標題 二級標題 三級標題 四級標題 五級標題 六級標題 這是粗體字，這是斜體字</description>
     </item>
